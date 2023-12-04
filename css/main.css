@@ -17,7 +17,8 @@
   color: inherit;
 }
 a,
-button {
+button,
+svg {
   cursor: pointer;
 }
 body {
@@ -380,6 +381,120 @@ main {
   margin: 0 auto; 
   display: block; 
 }
+/* Footer  */
+.footer {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 100px 136px;
+}
+.footer-block {
+  margin: 0 auto;
+  width: 1168px;
+}
+.footer-block h4 {
+  color: #c0c0c0;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 143%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.footer-block p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 143%;
+}
+.news-box {
+  width: 458px;
+  height: 52px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  background: #f9fafb;
+  margin: 40px 0;
+}
+.descript {
+  display: inline-flex;
+  padding: 0px 18px 129px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  margin-right: 252px;
+}
+.footer-list {
+  display: inline-flex;
+  padding: 0px 38px 60px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.footer-pages {
+  display: inline-flex;
+  height: 200px;
+  padding-right: 102px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+}
+.news-block {
+  display: flex;
+  justify-content: space-between;
+  margin: 36px 0 36px 0;
+  border-top: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+.news-text {
+  display: inline-flex;
+  height: 60px;
+  padding-right: 414px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  flex-shrink: 0;
+  margin-top: 36px;
+}
+.contacts {
+  display: flex;
+  justify-content: space-between;
+}
+.copyright {
+  display: inline-flex;
+  padding: 0px 290px 2px 0px;
+  align-items: flex-start;
+}
+.sprite-social {
+  display: flex;
+  width: 112px;
+  height: 24px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  flex-shrink: 0;
+}
+.btn-input {
+  padding: 11px 10px 13px 42px;
+  min-width: 143px;
+  text-align: center;
+}
+.btn-input::before {
+  content: "";
+  position: absolute;
+  left: 206px;
+  top: 6px;
+  background: url(../img/circle.svg);
+  width: 63px;
+  height: 30px;
+  border-radius: 11px;
+  background: #000;   
+}
+
         
 
 
