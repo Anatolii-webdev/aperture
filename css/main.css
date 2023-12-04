@@ -210,6 +210,10 @@ main {
   background: url(../img/image-3.png);
   position: relative;
 }
+.section-3 h4 {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
 .sec3-text {
   width: 300px;
   display: inline-flex;
@@ -221,11 +225,6 @@ main {
   flex-shrink: 0;
   position: relative;
   left: 1080px;
-}
-.section-3 h4 {
-  line-height: 143%;
-  letter-spacing: 2px;
-  text-transform: uppercase;
 }
 .section-3 .sprite{
   position: absolute;
@@ -267,6 +266,35 @@ main {
   position: absolute;
   right: 40px;
   bottom: 45px;
+}
+/* Section 5  */
+.section-5 {
+  max-width: 1440px;
+  height: 600px;
+  margin: 0 auto;
+  background: url(../img/image-5.png);
+  position: relative;
+}
+.section-5 h4 {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.sec5-text {
+  width: 300px;
+  display: inline-flex;
+  height: 600px;
+  padding-right: 2px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  left: 1080px;
+}
+.section-5 .sprite{
+  position: absolute;
+  right: 40px;
+  bottom: 45px;  
 }
 
 
