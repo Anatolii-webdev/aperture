@@ -149,3 +149,60 @@ main {
   right: 40px;
   bottom: 45px;  
 }
+/* Section 2  */
+.section-2 {
+  padding: 120px 0 100px 0;
+}
+.content-2 {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.sec2-flex{
+  display: flex;
+  width: 1200px;
+  padding: 0px 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+.content-2 h2 {
+  text-align: center;
+  font-size: 40px;
+  line-height: 105%;
+  margin-bottom: 15px;
+}
+.content-2 h3 {
+  color: #c0c0c0;
+  text-align: center;
+  font-size: 23px;
+  line-height: 130%;
+  margin-bottom: 40px;
+}
+.flex-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.card{
+  height: 600px;
+  position: relative;
+}
+.card-text{
+  width: 516px;
+  position: absolute;
+  bottom: 90px;
+  left: 30px;
+}
+.card h4{
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 10px;
+}
+.card .btn{
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+}
+
