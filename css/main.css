@@ -128,7 +128,6 @@ main {
   top: 440px;
 }
 .sec1-text h2{
-  color: #c0c0c0;
   text-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -140,7 +139,6 @@ main {
   margin-bottom: 18px;
 }
 .sec1-text p{
-  color: #c0c0c0;
   text-align: center;
   margin: 0 10px 10px 10px;
 }
@@ -173,7 +171,6 @@ main {
   margin-bottom: 15px;
 }
 .content-2 h3 {
-  color: #c0c0c0;
   text-align: center;
   font-size: 23px;
   line-height: 130%;
@@ -230,13 +227,46 @@ main {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-.section-3 p {
-  color: #c0c0c0;
-}
 .section-3 .sprite{
   position: absolute;
   right: 40px;
   bottom: 45px;  
+}
+/* Section 4  */
+.flex {
+  display: flex;
+  align-items: center;
+}
+.lc {
+  padding: 113px 0 113px 0;
+}
+.lc-text{
+  width: 600px;
+  margin: 0 auto;
+  padding-right: 40px;
+}
+
+.lc h4 {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.lc p{
+  margin-bottom: 20px;
+  width: 514px;
+}
+.lc h3 {
+  font-size: 28px;
+  line-height: 114%;
+  margin-bottom: 14px;
+}
+.rc{
+    position: relative;
+}
+.rc .sprite {
+  position: absolute;
+  right: 40px;
+  bottom: 45px;
 }
 
 
